@@ -65,6 +65,6 @@ void heapify_min(element E, int i){
 	}
 	if(smallest!=i){
 		swap(tab[smallest],tab[i]);
-		heapify_min(t,smallest)
+		heapify_min(t,smallest);
 	}
 }
